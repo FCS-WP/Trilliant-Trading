@@ -1,0 +1,111 @@
+@import url(_animation.scss);
+@import url(_buttons.scss);
+@import url(_fonts.scss);
+@import url(_mixins.scss);
+@import url(_variables.scss);
+
+.home-section{
+    &-items{
+        h2{
+            font-size: 40px !important;
+        }
+    }
+}
+
+.about-section{
+    &-items{
+        h2{
+            font-size: 43px !important;
+        }
+    }
+}
+
+.image-single-product{
+    ol{
+        li{
+            padding: 15px !important;
+        }
+    }
+}
+
+.form-contact{
+    .elementor-field-label {
+        font-weight: bolder !important;
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: black !important;
+        
+    }
+
+    input{
+        border: 0 !important;
+        border-radius: 15px !important;
+        margin-bottom: 10px;
+    }
+
+    textarea{
+        border: 0 !important;
+        border-radius: 15px !important;
+        padding-top: 10px !important;
+        margin-bottom: 10px;
+    }
+
+    button{
+        border-radius: 15px !important;
+    }
+}
+
+.sidebar-category-product{
+    #wc_category_accordion_widget-2 {
+
+        list-style: none !important;
+        
+        .accordion-item{
+            a{
+                color: black;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            
+            a:hover{
+                color: #CC3366;
+            }
+            .accordion-icon:hover{
+                color: #CC3366;
+            }
+            
+            .accordion-icon{
+                font-size: 20px;
+                margin-right: 5px;
+                cursor: pointer;
+            }
+        }
+
+        .accordion-header:first-child{
+            border-bottom: 3px solid #CCCCCC;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
+
+        .accordion-content{
+            ul{
+                padding-left: 0px;
+                list-style-position: inside;
+
+                li{
+                    border-bottom: 1px solid #CCCCCC    ;
+                    padding-bottom: 5px;
+                }
+            }
+        }
+
+        .accordion-header:hover{
+            a{
+                color: #CC3366;
+            }
+            .accordion-icon{
+                color: #CC3366;
+            }
+        }
+    }
+}
